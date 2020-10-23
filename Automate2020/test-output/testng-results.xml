@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports]]>
+    </line>
+    <line>
+      <![CDATA[Setting are completed, tests can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Trying to login to application]]>
+    </line>
+    <line>
+      <![CDATA[Login to application successful]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>>>> Reports Generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36161" started-at="2020-10-23T04:34:30Z" finished-at="2020-10-23T04:35:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36161" started-at="2020-10-23T04:34:30Z" finished-at="2020-10-23T04:35:07Z">
+      <class name="com.automation.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@6f7fd0e6]" name="setUpSuite" is-config="true" duration-ms="3197" started-at="2020-10-23T10:04:27Z" finished-at="2020-10-23T10:04:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports]]>
+            </line>
+            <line>
+              <![CDATA[Setting are completed, tests can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testcases.LoginTestCRM@6f7fd0e6]" name="setup" is-config="true" duration-ms="25374" started-at="2020-10-23T10:04:31Z" finished-at="2020-10-23T10:04:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.automation.testcases.LoginTestCRM@6f7fd0e6]" name="loginApp" duration-ms="7803" started-at="2020-10-23T10:04:56Z" finished-at="2020-10-23T10:05:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to login to application]]>
+            </line>
+            <line>
+              <![CDATA[Login to application successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="1829" started-at="2020-10-23T10:05:04Z" finished-at="2020-10-23T10:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:0, instance:com.automation.testcases.LoginTestCRM@6f7fd0e6] output=Trying to login to application]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>>>> Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginTestCRM@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="846" started-at="2020-10-23T10:05:06Z" finished-at="2020-10-23T10:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
