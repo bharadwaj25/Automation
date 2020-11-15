@@ -20,6 +20,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+//This is a Base Class
+
 public class BaseClass 
 {
 	public WebDriver driver;
